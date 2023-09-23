@@ -15,13 +15,14 @@
 <body>
     <p>Welcome to DMO, let's start</p>	
 	
-	<label for="imageLoader">
+	<center><label for="imageLoader">
 	<img src="https://dmo.asia/devices/bezelless_wgray.png" width="100px" height="auto" alt="Add">
 	<div id="name">Put your image</div>
 	</label>	
 	<input type="file" id="imageLoader" name="imageLoader"/>
+	</center>
 	<canvas id="imageCanvas"></canvas>
-	<center><div id="img_div"></div></center>
+	<center><div id="img_div" onclick="imageLoader"></div></center>
 	<script type="text/javascript">
 		/* Know how you can contribute to the code: Simply go to the Github project's issue. */
 		var imageLoader = document.getElementById("imageLoader");
