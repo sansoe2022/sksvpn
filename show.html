@@ -15,15 +15,20 @@
 <body>
     <p>Welcome to DMO, let's start</p>	
 	
-	<center><label for="imageLoader">
-	<img src="https://dmo.asia/devices/bezelless_wgray.png" width="100px" height="auto" alt="Add">
+	<center>
+	<label for="imageLoader">
+	<img src="https://dmo.asia/devices/bezelless_wgray.png" width="200px" height="auto" alt="Add">
 	<div id="name">Put your image</div>
 	</label>	
 	<input type="file" id="imageLoader" name="imageLoader"/>
-	</center>
 	<canvas id="imageCanvas"></canvas>
-	<center><div id="img_div" onclick="imageLoader"></div></center>
-	<script type="text/javascript">
+	<center><div id="img_div" for="imageLoader"></div></center>
+	<p id="showBt" style="display: none;">
+	<button class="btn btn-outline-primary" for="img_div" id="download"><i class="fa fa-download"></i> Download image</button>
+	</p>
+	</center>
+
+<script type="text/javascript">
 		/* Know how you can contribute to the code: Simply go to the Github project's issue. */
 		var imageLoader = document.getElementById("imageLoader");
       	imageLoader.addEventListener("change", handleImage, false);
@@ -74,16 +79,11 @@ document.getElementById('download').addEventListener('click', function(e) {
 });
 	}
 	</script>
-	<br>
-
-	<p id="showBt" style="display: none;">
-	<button class="btn btn-outline-primary" for="img_div" id="download"><i class="fa fa-download"></i> Download image</button>
-
+		
 	<script type="text/javascript">
   function showStuff(id) {
     document.getElementById(id).style.display='block';
   }
-
   function hideStuff(id) {
     document.getElementById(id).style.display='none';
   }
