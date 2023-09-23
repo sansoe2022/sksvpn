@@ -28,6 +28,8 @@
       	function handleImage(e) {
         var reader = new FileReader();
         reader.onload = function(event) {
+		showStuff('showBt', 'text1', this);
+	      return true;
         	var img = new Image();
           	img.crossOrigin = "*";
           	img.onload = function() {
@@ -38,8 +40,6 @@
             var wm = new Image();
             wm.crossOrigin = "*";
             wm.onload = function() {
-	      showStuff('showBt', 'text1', this);
-	      return true;
               ctx.drawImage(this, 0, 0, 1840, 3600);
               var base64 = canvas.toDataURL("image/png");
               var fileToSave = new Image();
