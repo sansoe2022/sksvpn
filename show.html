@@ -31,14 +31,14 @@
         	var img = new Image();
           	img.crossOrigin = "*";
           	img.onload = function() {
-            canvas.width = 1840;
-            canvas.height = 3600;
-            ctx.drawImage(img, 200, 200, 1440, 3200);
+            canvas.width = 900;
+            canvas.height = 1280;
+            ctx.drawImage(img, 200, 200, 900, 1280);
 			
             var wm = new Image();
             wm.crossOrigin = "*";
             wm.onload = function() {
-              ctx.drawImage(this, 0, 0, 1840, 3600);
+              ctx.drawImage(this, 0, 0, 900, 1280);
               var base64 = canvas.toDataURL("image/png");
               var fileToSave = new Image();
               fileToSave.onload = function() {
