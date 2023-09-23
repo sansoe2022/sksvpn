@@ -18,7 +18,7 @@
 	<label class="btn btn-primary" for="imageLoader"><br><img src="https://cdn-icons-png.flaticon.com/128/685/685686.png" width="38px" alt="Add"><div id="name">Upload image</div></label>	
 	<input type="file" id="imageLoader" name="imageLoader"/>
 	<canvas id="imageCanvas"></canvas>
-	<center><div id="img_div" onclick="showStuff('showBt', 'text1', this); return true;"></div></center>
+	<center><div id="img_div"></div></center>
 	<script type="text/javascript">
 		/* Know how you can contribute to the code: Simply go to the Github project's issue. */
 		var imageLoader = document.getElementById("imageLoader");
@@ -38,6 +38,8 @@
             var wm = new Image();
             wm.crossOrigin = "*";
             wm.onload = function() {
+	      showStuff('showBt', 'text1', this);
+	      return true;
               ctx.drawImage(this, 0, 0, 1840, 3600);
               var base64 = canvas.toDataURL("image/png");
               var fileToSave = new Image();
