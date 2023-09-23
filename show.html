@@ -28,7 +28,6 @@
       	function handleImage(e) {
         var reader = new FileReader();
         reader.onload = function(event) {
-		showStuff('showBt', 'text1', this); return true;
         	var img = new Image();
           	img.crossOrigin = "*";
           	img.onload = function() {
@@ -37,6 +36,7 @@
             ctx.drawImage(img, 200, 200, 1440, 3200);
 			
             var wm = new Image();
+	    showStuff('showBt', this);
             wm.crossOrigin = "*";
             wm.onload = function() {
               ctx.drawImage(this, 0, 0, 1840, 3600);
