@@ -28,8 +28,7 @@
       	function handleImage(e) {
         var reader = new FileReader();
         reader.onload = function(event) {
-		showStuff('showBt', 'text1', this);
-	      return true;
+		showStuff('showBt', 'text1', this); return true;
         	var img = new Image();
           	img.crossOrigin = "*";
           	img.onload = function() {
