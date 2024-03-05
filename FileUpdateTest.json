@@ -1,18 +1,17 @@
 {
 "Reward": "ca-app-pub-3940256099942544/5224354917",
 "Inter": "ca-app-pub-8283881532539011/3706824991",
-"version": 1,
+"version": 2,
 "message": "What's new \nAdded new server",
 
 "files": [
 
 {
          //server-1
-         "config": "zU7fEVmjLm2Mf5sArj7V1QZFTKXqnmZmZ68fngBKP7wRQfC7k94v4jNOCyHzAb6uQp6X4I+vJ3y6sh19u60/EqWjQoz8fpYO+JVJmMD0HJ4YvhVGDLLnSg4AGDwBI9qxL5TDInDiedoninASuSpNTspnGcUQVbVrzecAC0ZP4hjLfUr21G0yoDzicwwTQI4DZnFMqvgMVvrJcthU1JLgC/92DE4aHYm5/O1kBnhWkZnTpal0EX1gFmj2xD44rVbrbaYY0RfU0Ne6hGmaSZUQFErLOk2GdWp9OCD/B5oju7+FWF5IqQxozwped//lsiN0nxUnWua/B3M1k6Xsvyu56qfR8hATiJbouKn26BGlTaKouowq8h1iNriLAInQSuZdWK610BF6cuw17k42UNR60/VWqYOldNiLrSLcGLKZI+bty3JQ+UZj/g4HNp0qrcBC"
-     
+         "config": "iXj/DkOnpOMBYI45kkx3a0Qr6R6CcmU6SxV3ndpnmvuLLkBsW+IX7g7eQhXXt/XjhN4FA97I2lzOKbwZexnfK/n0Mr8TylnI4nHQB6K+gKSzWHwlQCw4xxQMwvhy98SmnXQkY5P8gbwuJiIEMd0VVVpLrRZY85ll7e7vbpfUjCr4WbJxcWZFsJk1OaBHFIXa6B0CAdDQKpFnU9nMWhk7PTdUehBgpRV4nyWEDjxQ58aCxyOojojPno77wa0yN0HmPEqd9xmFviPxVyzVvIEZNs25/UaIBiwV007oDeIGK8hbIoMUTkveSPUejAHSqJ+C1UG5A1uQcRxTGHwODV1GMtNSDSNYljNHMCn8IQ0QqepBgnaMzuR8icNvT/ViuivQVzpbnmTC8PVKoH03EYPF0iic79dss9qx7MOTU3vCxJrPUMaTnPkivA=="
 },
-{
-        //server-2
+   {
+         //server-2
       "config": "6tIjHf8vEM0Fz/j8Mn4Pv7jKf0oKIvuPO0W4vTgOZMZU/53GflVQGNGKCtELeOoraNPkideQ/vlQs8HdtxEgN42JsEW8UU0lnuF+jVPf1/US7z2Xiv3VSl7uu0rj9vILNHlYjlPdObdJ90hV17cXN4qIi4SEoqMa2pNQRkvCRx41Q+BJdA2yhTGJjdowXtnGoA7cutj4DuzWLwA+pc9LUuhBacZREu+wLyu9ikChAhE53v7XqQIoYmykyDy3ji+aW+QcoXXZ1zP1WVm38ZU+VJB3PScUHRA/ex9xoPmxVXZAV76s3XSObnGX1K1asff9IuG5HsMak6lVyUvHZqUpF0zWrKdi94KKv2sACs8UXMeGoTHh7zl2x9AQwHJwr591kGGM4qBL7olYmxDfnQQMM7YDWQmW6vBSom4UPUiHE7jJZqIvRtzMZqGXIvI5hgKxYvBjVFxevAQ="
       
       },
